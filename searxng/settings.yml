@@ -5,7 +5,8 @@ server:
   secret_key: "abc123DEF456ghi789JKL0!@#$%qwertY"  # change this!
   limiter: true  # can be disabled for a private instance
   image_proxy: true
+  use_redis: false
 ui:
   static_use_hash: true
-redis:
-  url: redis://redis:6379/0
+# redis:
+ # url: redis://redis:6379/0
